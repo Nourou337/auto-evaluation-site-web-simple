@@ -1,0 +1,187 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* navbar*/
+.navbar {
+ background-color: white;
+ border: 1px solid rgb(193, 99, 44);
+}
+.nav-link{
+    color: black ;
+    font-size: .8rem;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+}
+.nav-link:hover{
+    color: white;
+    background-color: black;
+}
+.navbar-brand{
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* main*/
+.main{
+    background-size: cover;
+    height:100%;
+    background-image: linear-gradient(to right, rgba(29, 38, 38, 0.785), rgba(27, 37, 40, 0.642)), url(evimg.png);
+}
+
+.main .img{
+    position: relative;
+    bottom: 30px;
+    left: 5.5rem;
+}
+span{
+    color: #ba3893;
+    font-weight: 800;
+}
+span h6{
+    background-color: #0f578e;
+}
+.main h3{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #f3f5f6;
+}
+.main h6{
+    font-size: 1rem;
+    line-height: 2;
+    border-bottom: 3px solid #0f7decea;
+    width: 100%;
+    font-weight: 700;
+    color: white;
+}
+.main .bt1{
+    position: relative;
+    height: 55px;
+    width: 136px;
+    background-color: #0f578e;
+    color:white;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-right: 20px;
+    z-index: 1;
+    overflow: hidden;
+}
+.main .bt1:hover{
+    background-color: #c5685a;
+    transition: 0.5s;
+    width: 40%;
+}
+.main .bt2{
+    height: 55px;
+    width: 136px;
+    background-color: transparent;
+    color:#f3f5f6;
+    outline: none;
+    border: 1px solid #0f578e;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.main .bt2:hover{
+    background-color: #0f578e;
+    transition: 0.5s;
+    color: white;
+}
+.main .icon{
+    position: relative;
+    font-size: 2.4rem;
+  
+}
+.main .icon a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    background: transparent;
+    border-radius: 50%;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    text-decoration: none;
+}
+.main .icon a:hover{
+    color: #ba3893;
+}
+
+/* about */
+.about h1{
+    font-size: 3rem;
+    font-weight: 800;
+}
+.btn1{
+    height: 40px;
+    width: 145px;
+    outline: none;
+    border: none; background-color: #ba3893;
+    border-radius: 4px;
+    color: white;
+    font-weight: 500;  
+ }
+ .btn1:hover{
+     background-color: transparent;
+     color: black;
+     border: 3px solid #ba3893;
+     transition: .5s;
+ }
+ .btn2{
+    height: 40px;
+    width: 145px;
+    outline: none;
+    border: 2px solid #ba3893; background-color: transparent;
+    border-radius: 4px;
+    color: black;
+    font-weight: 500;
+ }
+ .btn2:hover{
+     background-color: #ba3893;
+     color: white;
+     border:none;
+     transition: .5s;
+ }
+ /*contact*/
+ .contact{
+    margin-left: 1rem;
+}
+.contact p{
+    position: relative;
+    bottom: 13px;
+    left: 2rem;
+}
+.contact .icon i{
+    position: relative;
+    top: 1rem;
+}
+/*footer*/
+
+footer{
+    background: #2e2b28;
+    color: #ffffff;
+    text-align: center;
+    
+} 
+
+.footer li{
+    display: inline-flex;
+    align-items: center;
+    padding: 0 1.5rem;
+    font-size: 1rem;
+}
+.footer a{
+    text-decoration: none;
+    color: #fcfbfb;
+}
+.footer a:hover{
+    
+    color: #ba3893;
+}
+
